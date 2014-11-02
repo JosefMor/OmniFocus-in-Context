@@ -3,8 +3,14 @@ OmniFocus-in-Context
 
 Scripts for OF metabolism
 
-## Completed Tasks or Projects To DayOne Message
+## Filter and Create Reference notes in Evernote, simple reporting
 
+[Reference-In-EN](./Reference-In-EN "OmniFocus AppleScript")
+
+Implicit notes organization by tags concatenated from project path in OmniFocus
+On click script to fliter notes or creating task specific note with task name, note, data reported to Evernote
+
+## Completed Tasks or Projects To DayOne Message
 
 [Completed2DayOne](./Completed2DayOne "OmniFocus AppleScript")
 

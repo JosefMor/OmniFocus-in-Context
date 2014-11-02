@@ -53,6 +53,8 @@ tell application "OmniFocus"
 				
 				tell anItem
 					
+					set completed of anItem to true
+					
 					set traversedTask to the anItem
 					
 					set itemTitle to name of the traversedTask
@@ -142,7 +144,6 @@ tell application "OmniFocus"
 					set CompleteNote to CompleteNote & note of anItem
 				end if
 				set CompleteNote to CompleteNote & "\n\r***\n\r"
-				-- set completed of anItem to true
 				
 			end repeat
 			
@@ -184,3 +185,4 @@ tell application "Day One"
 	end tell
 	
 end tell
+
